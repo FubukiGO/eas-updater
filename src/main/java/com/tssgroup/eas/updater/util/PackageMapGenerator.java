@@ -17,14 +17,6 @@ public class PackageMapGenerator {
         super();
     }
 
-    public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-        String home = "W:/eas/Server/server/deploy/fileserver.ear/easWebClient";
-        String libPath = "lib";
-        generatePKMap(home, libPath, "W:/", "pkmap.lst", "W:/eas/Server/server/properties/");
-        System.out.println("Generate package map list: " + (System.currentTimeMillis() - startTime));
-    }
-
     public static void generatePKMap(String home, String libPath, String outputpath) {
         System.out.println("--generatePKMap--path" + home);
     }

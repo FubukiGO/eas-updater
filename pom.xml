@@ -49,7 +49,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.akhan.jplearn.Application</mainClass>
+                            <mainClass>com.tssgroup.eas.updater.Application</mainClass>
                             <addClasspath>true</addClasspath>
                         </manifest>
                         <manifestEntries>
